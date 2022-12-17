@@ -7,6 +7,8 @@ app.use(cors({
     origin:'http://localhost:3000'
   }));
 
+
+//here+
 app.get('/api/products',(req,res)=>{
     
         res.send(data.products)
